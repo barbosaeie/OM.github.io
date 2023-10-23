@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin:0 auto;
+    padding:0 2%;
+}
+
+header{
+    padding:20px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+
+.menu{
+    padding-top: 30px;
+    width: 40%;
+    text-align: right;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.texto-inicio{
+    margin-top: 100px;
+}
+
+.texto-inicio h1{
+    font-size: 50px;
+
+}
+
+.texto-inicio p{
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.texto-inicio button{
+    border: 0;
+    background-color:darkred;
+    color: white;
+    border-radius: 10px;
+    width:100px
+}
+
+.texto-inicio button{
+    height: 30px;
+    cursor: pointer;
+}
